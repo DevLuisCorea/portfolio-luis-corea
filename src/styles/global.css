@@ -1,8 +1,13 @@
 @import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:wght@400..900&display=swap'); */
+
+
 
 @theme inline {
   --font-sans: var(--font-be-vietnam-pro);
   --font-serif: var(--font-gabarito);
+  /* --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif; */
 
   --color-primary: #2563eb;
   --color-neutral: #94a3b8;
