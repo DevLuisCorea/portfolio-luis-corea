@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Luis Aaron Corea Nuñez - Frontend Developer",
+  title: "Ing. Luis Aaron Corea Nuñez - Developer",
   author: "Luis Aaron Corea Nuñez",
   description:
     "Software Engineer based in Nicaragua. I specialize in UI design, web and mobile application development and maintenance.",
@@ -16,8 +16,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/luis-a-corea-n-565471309/" },
     { text: "Github", href: "https://github.com/DevLuisCorea" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "favicon.svg",
+  canonicalURL: "/",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -42,7 +42,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "SISTEMATICA INTERNACIONAL",
-      position: "Frontend Developer",
+      position: "Frontend Developer Junior",
       startDate: "May 2024",
       endDate: "Actually",
       summary: [
@@ -50,38 +50,23 @@ export const SITE_CONTENT: SiteContent = {
         "Onboarding Experience Optimization: Development and improvement of strategic flows and websites focused on user acquisition and retention, implementing advanced validations, interactive forms, and seamless navigation to ensure successful customer onboarding.",
         "Service Integration and API Consumption: Efficient connection of the frontend with RESTful APIs and external services for secure form data processing, real-time data synchronization, and automation of key business processes."
       ],
-    },
-    // {
-    //   company: "Driveer",
-    //   position: "Frontend Developer",
-    //   startDate: "Jun 2015",
-    //   endDate: "Oct 2016",
-    //   summary:
-    //     "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    // },
+    }
   ],
   projects: [
     {
       name: "SI-FINANZAS",
-      summary: "System for financial and accounting control of the church I attend",
+      summary: "Financial and accounting control system for the church I attend, developed in Next.js and Express.js with Supabase and PostgreSQL",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/DevLuisCorea",
+      image: "/web-resources/si-finanzas.webp",
     },
-    // {
-    //   name: "Shopp App",
-    //   summary: "An e-commerce platform that replicates Shopify's key features.",
-    //   linkPreview: "/",
-    //   linkSource: "https://github.com/immois/astro-zen",
-    //   image: "/shopify-clon.png",
-    // },
-    // {
-    //   name: "ClonTagram",
-    //   summary: "A social network that replicates the features of Instagram",
-    //   linkPreview: "/",
-    //   linkSource: "https://github.com/immois/astro-zen",
-    //   image: "/clone-ig.png",
-    // },
+    {
+      name: "Inventory System for Hardware Stores",
+      summary: "A customized system for hardware stores to track inventory inflows and outflows.",
+      linkPreview: "/",
+      linkSource: "https://github.com/DevLuisCorea",
+      image: "/web-resources/siinvetnario-ferreteria.webp",
+    }
   ],
   about: {
     description: `
@@ -90,5 +75,3 @@ export const SITE_CONTENT: SiteContent = {
     image: "/web-resources/image-profile.jpg",
   },
 };
-
-// #5755ff
