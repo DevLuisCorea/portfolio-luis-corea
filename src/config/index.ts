@@ -66,6 +66,13 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "/",
       linkSource: "https://github.com/DevLuisCorea",
       image: "/web-resources/siinvetnario-ferreteria.webp",
+    },
+    {
+      name: "Website for a Beauty Clinic",
+      summary: "I developed a modern website for Beauty Clinic using Astro, React, and Bootstrap. The result is an intuitive UX/UI, and optimized performance. The site is designed to strengthen the clinic’s digital presence, showcase its services, and ensure seamless navigation across all devices.",
+      linkPreview: "https://sandbox-beauty-clinic-site.netlify.app",
+      linkSource: "https://github.com/DevLuisCorea",
+      image: "/web-resources/beauty-clinic-site.webp",
     }
   ],
   about: {
